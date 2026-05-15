@@ -1,4 +1,4 @@
-# Supply Chain Capacity Intelligence Platform
+# 🚚 Supply Chain Capacity Intelligence Platform
 
 An end-to-end supply chain analytics and operational intelligence project built using Power BI, SQL, and Python.
 
@@ -8,34 +8,51 @@ The dashboard was designed to support executive-level operational monitoring, lo
 
 ---
 
-# Executive Overview Dashboard
+# 📊 Executive Overview Dashboard
+
+High-level executive monitoring dashboard focused on:
+- SLA reliability
+- operational order trends
+- delivery efficiency
+- freight performance
 
 ![Executive Overview](images/executive_overview.png)
 
 ---
 
-# Operational Root Cause Analysis Dashboard
+# 🔍 Operational Root Cause Analysis Dashboard
+
+Operational diagnostics dashboard designed to identify:
+- high-risk delivery regions
+- freight inefficiencies
+- logistics bottlenecks
+- operational scaling pressure
 
 ![Operational RCA](images/operational_root_cause_analysis.png)
 
 ---
 
-# Business Problem
+# 📌 Business Problem
 
-Modern e-commerce supply chains face persistent operational challenges related to delivery reliability, logistics scalability, freight inefficiencies, and regional SLA breaches.
+Modern e-commerce supply chains face persistent operational challenges related to:
+- delayed deliveries
+- logistics scalability
+- freight inefficiencies
+- regional SLA breaches
+- fulfillment performance variability
 
-As order volumes increase, operational bottlenecks can significantly impact:
+As operational demand increases, these challenges can significantly impact:
 - customer satisfaction
-- delivery timelines
 - transportation costs
-- fulfillment efficiency
+- delivery timelines
 - logistics planning
+- fulfillment efficiency
 
-This project was designed to analyze operational delivery performance and generate actionable business intelligence for executive-level supply chain decision-making.
+This project was developed to generate actionable operational intelligence for supply chain performance optimization and executive decision-making.
 
 ---
 
-# Project Objectives
+# 🎯 Project Objectives
 
 The primary objectives of this project were to:
 
@@ -44,12 +61,12 @@ The primary objectives of this project were to:
 - Analyze freight cost inefficiencies
 - Evaluate seller-side fulfillment concentration risk
 - Track operational performance trends over time
-- Generate executive-level operational insights and recommendations
+- Generate executive-level business insights and recommendations
 - Build an interactive Power BI dashboard for logistics intelligence monitoring
 
 ---
 
-# Dataset Overview
+# 🗂 Dataset Overview
 
 ## Dataset Source
 Brazilian E-Commerce Public Dataset by Olist
@@ -75,7 +92,7 @@ The analysis was performed using cleaned operational datasets focused on:
 
 ---
 
-# Tools & Technologies
+# 🛠 Tools & Technologies
 
 | Category | Tools Used |
 |---|---|
@@ -90,17 +107,15 @@ The analysis was performed using cleaned operational datasets focused on:
 
 ---
 
-# Dashboard Architecture
+# 🧠 Dashboard Architecture
 
 The Power BI dashboard was designed as a two-page executive operational intelligence system focused on delivery reliability, logistics performance, and supply chain risk monitoring.
 
----
+## 📈 Page 1 — Executive Overview
 
-# Page 1 — Executive Overview
+The Executive Overview dashboard provides a high-level operational snapshot of delivery performance and fulfillment efficiency.
 
-The Executive Overview dashboard provides a high-level operational snapshot of logistics performance and SLA reliability.
-
-## Key KPIs
+### Key KPIs
 
 | KPI | Business Purpose |
 |---|---|
@@ -110,28 +125,28 @@ The Executive Overview dashboard provides a high-level operational snapshot of l
 | Early Delivery % | Measures proactive delivery performance |
 | Avg Freight Cost | Tracks logistics transportation cost |
 
-## Executive-Level Visuals
+### Executive-Level Visuals
 
 - Monthly Orders Trend
 - Monthly SLA Breach Trend
 - Delivery Status Distribution
 - KPI Monitoring Cards
 
-## Business Focus
+### Business Focus
 
-This page was designed for:
+This page supports:
 - executive monitoring
 - operational performance tracking
-- delivery reliability assessment
-- logistics health evaluation
+- delivery reliability evaluation
+- logistics health assessment
 
 ---
 
-# Page 2 — Operational Root Cause Analysis (RCA)
+## 📉 Page 2 — Operational Root Cause Analysis (RCA)
 
-The Operational RCA dashboard focuses on identifying the operational drivers behind SLA breaches, freight inefficiencies, and logistics risk concentration.
+The Operational RCA dashboard identifies the operational drivers behind SLA breaches, freight inefficiencies, and regional logistics risk.
 
-## Operational Analysis Areas
+### Operational Analysis Areas
 
 | Analysis Area | Business Purpose |
 |---|---|
@@ -140,16 +155,16 @@ The Operational RCA dashboard focuses on identifying the operational drivers beh
 | Orders vs SLA Scatter Analysis | Detects operational scaling pressure |
 | Strategic Recommendation Table | Supports executive decision-making |
 
-## Key Operational Visuals
+### Key Operational Visuals
 
 - Top Risk States by SLA Breach
 - Orders vs SLA Breach Scatter Plot
 - Freight Category vs SLA Breach Analysis
 - Executive Recommendation Matrix
 
-## Business Focus
+### Business Focus
 
-This page was designed for:
+This page supports:
 - operational diagnostics
 - logistics optimization
 - regional risk monitoring
@@ -157,7 +172,7 @@ This page was designed for:
 
 ---
 
-# Key Business Insights
+# 🔍 Key Business Insights
 
 The analysis identified several operational patterns and logistics risk signals:
 
@@ -169,9 +184,9 @@ The analysis identified several operational patterns and logistics risk signals:
 
 ---
 
-# Strategic Recommendations
+# 🚀 Strategic Recommendations
 
-Based on the analysis, the following operational recommendations were identified:
+Based on the operational analysis, the following recommendations were identified:
 
 1. Expand logistics support for high-risk delivery regions.
 
@@ -181,16 +196,16 @@ Based on the analysis, the following operational recommendations were identified
 
 4. Reduce operational dependency on concentrated seller hubs.
 
-5. Implement proactive operational monitoring systems for delivery-risk corridors.
+5. Implement proactive monitoring systems for delivery-risk corridors and logistics bottlenecks.
 
 ---
 
-# Repository Structure
+# 📂 Repository Structure
 
 ```text
 Supply-Chain-Capacity-Intelligence-Platform/
 │
-│── assets/
+├── assets/
 │   └── dashboard_background.png
 │
 ├── dashboard/
@@ -214,9 +229,10 @@ Supply-Chain-Capacity-Intelligence-Platform/
 │
 └── README.md
 ```
+
 ---
 
-# Project Files Description
+# 📁 Project Files Description
 
 | Folder | Description |
 |---|---|
@@ -230,7 +246,7 @@ Supply-Chain-Capacity-Intelligence-Platform/
 
 ---
 
-# How to Use
+# ⚙ How to Use
 
 ## Power BI Dashboard
 1. Download the `.pbix` dashboard file from the `dashboard/` folder.
@@ -249,14 +265,6 @@ Supply-Chain-Capacity-Intelligence-Platform/
 
 ---
 
-# Final Note
+# 🧠 Final Note
 
-This project was developed to demonstrate:
-- operational analytics
-- business intelligence storytelling
-- KPI engineering
-- executive dashboarding
-- logistics intelligence
-- end-to-end analytical workflow development
-
-using Power BI, SQL, Python, and DAX.
+This project demonstrates how operational analytics, KPI engineering, and executive dashboarding can be combined to support data-driven supply chain decision-making using Power BI, SQL, Python, and DAX.
